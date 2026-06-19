@@ -1,0 +1,46 @@
+[
+  {
+    "timestamp": "2026-06-19T11:52:33",
+    "nome": "modelo_final_decisiontree",
+    "algoritmo": "DecisionTree",
+    "parametros": {
+      "class_weight": {
+        "0": 1,
+        "1": 20
+      },
+      "limiar_decisao": 0.02,
+      "random_state": 42,
+      "codificacao": "One-Hot Encoding"
+    },
+    "metricas": {
+      "recall": 1.0,
+      "precision": 1.0,
+      "f5_score": 1.0,
+      "falsos_negativos": 0,
+      "falsos_positivos": 0
+    },
+    "observacoes": "Modelo de caixa-branca focado em IA Responsável. Status: Aprovado (0 FN)."
+  },
+  {
+    "timestamp": "2026-06-19T11:52:33",
+    "nome": "modelo_final_logisticregression",
+    "algoritmo": "LogisticRegression",
+    "parametros": {
+      "class_weight": {
+        "0": 1,
+        "1": 20
+      },
+      "limiar_decisao": 0.02,
+      "random_state": 42,
+      "codificacao": "One-Hot Encoding"
+    },
+    "metricas": {
+      "recall": 1.0,
+      "precision": 0.9201,
+      "f5_score": 0.9967,
+      "falsos_negativos": 0,
+      "falsos_positivos": 68
+    },
+    "observacoes": "Modelo de caixa-branca focado em IA Responsável. Status: Aprovado (0 FN)."
+  }
+]
