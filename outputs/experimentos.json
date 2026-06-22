@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-06-19T11:52:33",
+    "timestamp": "2026-06-21T21:40:21",
     "nome": "modelo_final_decisiontree",
     "algoritmo": "DecisionTree",
     "parametros": {
@@ -14,15 +14,15 @@
     },
     "metricas": {
       "recall": 1.0,
-      "precision": 1.0,
-      "f5_score": 1.0,
+      "precision": 0.9655,
+      "f5_score": 0.9986,
       "falsos_negativos": 0,
-      "falsos_positivos": 0
+      "falsos_positivos": 28
     },
     "observacoes": "Modelo de caixa-branca focado em IA Responsável. Status: Aprovado (0 FN)."
   },
   {
-    "timestamp": "2026-06-19T11:52:33",
+    "timestamp": "2026-06-21T21:40:21",
     "nome": "modelo_final_logisticregression",
     "algoritmo": "LogisticRegression",
     "parametros": {
